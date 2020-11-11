@@ -50,6 +50,7 @@ table {
 }
 
 /*Layout*/
+
 .wrap{
     width: 1024px;
     margin: 0 auto;
@@ -114,7 +115,7 @@ table {
     text-indent: 101%;
     white-space: nowrap;
     overflow: hidden;
-    margin: 20px 40px;
+    margin: 30px 40px;
 }
 
 .footer ul{
@@ -125,4 +126,46 @@ table {
 
 .footer ul li a{
     padding: 10px;
+}
+
+/*index*/
+
+.index-banner{
+    background-image: url(https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/mutiplePage/bg_index.png);
+    background-repeat: no-repeat;
+    top: 0;
+    z-index: 1;
+    padding: 176px 0 130px 42px;
+}
+
+.index-banner h2{
+    font-size: 44px;
+    line-height: 1.5;
+    color: #00cc99;
+    margin-bottom: 60px;
+}
+
+.index-banner h2 span{
+    color: #fff;
+}
+
+.setupBtn{
+    position: relative;
+}
+
+.setupBtn input{
+    background: #00cc99;
+    border-radius: 5px;
+    border:none;
+    padding: 16px 80px 16px 40px;
+    color: #fff;
+    font-size: 22px;
+    text-indent: 10px;
+}
+
+.setupBtn i{
+    position: absolute;
+    left: 180px; 
+    top: 16px; 
+    color: #fff;
 }
