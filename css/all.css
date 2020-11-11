@@ -48,3 +48,57 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/*Layout*/
+.wrap{
+    width: 1024px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.header{
+    background:rgb(129, 129, 129,0.3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+}
+
+.header h1 a{
+    background-image: url(https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/mutiplePage/logo.png);
+    display: block;
+    width: 182px;
+    height: 36px;
+    text-indent: 101%;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 20px 40px;
+}
+
+.header ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header ul li a{
+    display: block;
+    padding: 25px 40px;
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 10px solid rgba(129, 129, 129, 0);
+}
+
+.header ul li a:hover{
+    color:#00cc99;
+    border-bottom: 10px solid #00cc99;
+}
+
+.content{
+    
+}
+
+.footer{
+    
+}
