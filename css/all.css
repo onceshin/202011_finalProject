@@ -100,5 +100,29 @@ table {
 }
 
 .footer{
-    
+    background:#323228;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer h1 a{
+    background-image: url(https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/mutiplePage/logo.png);
+    display: block;
+    width: 182px;
+    height: 36px;
+    text-indent: 101%;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 20px 40px;
+}
+
+.footer ul{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 40px;
+}
+
+.footer ul li a{
+    padding: 10px;
 }
