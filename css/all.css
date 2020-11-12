@@ -212,8 +212,8 @@ h3{
 }
 
 .courseInfo-items li{
-    width: 260px;
-    padding: 24px 15px;
+    width: 256px;
+    padding: 24px 22px;
     box-shadow: 0px 2px 5px silver;
 }
 
@@ -228,4 +228,9 @@ h3{
     font-size: 20px;
     text-align: center;
     margin: 16px 0;
+}
+
+.courseInfo-items span{
+    font-size: 16px;
+    line-height: 1.5;
 }
