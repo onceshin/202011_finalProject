@@ -57,6 +57,12 @@ table {
     position: relative;
 }
 
+h3{
+    font-size: 34px;
+    color: #00cc99;
+    font-weight: bold;
+}
+
 .header{
     background:rgb(129, 129, 129,0.3);
     display: flex;
@@ -135,7 +141,7 @@ table {
     background-repeat: no-repeat;
     top: 0;
     z-index: 1;
-    padding: 176px 0 130px 42px;
+    padding: 176px 42px 130px 42px;
 }
 
 .index-banner h2{
@@ -168,4 +174,58 @@ table {
     left: 180px; 
     top: 16px; 
     color: #fff;
+}
+
+.courseInfo{
+    padding: 60px 42px;
+}
+
+.courseInfo-title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.courseInfo-title input{
+    background: #fff;
+    color:  #00cc99;
+    border-radius: 5px;
+    border: 2px solid  #00cc99;
+    padding: 7px 14px;
+    font-weight: bold;
+}
+
+.courseInfo-title-text{
+    display: flex;
+}
+
+.courseInfo-title-text p{
+    font-size: 18px;
+    padding-top: 15px;
+    padding-left: 14px;
+    color: #9b9b9b;
+}
+
+.courseInfo-items{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+.courseInfo-items li{
+    width: 270px;
+    padding: 24px 15px;
+    box-shadow: 0px 2px 5px silver;
+}
+
+.courseInfo-items-img{
+    height: 135px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.courseInfo-items h4{
+    font-size: 20px;
+    text-align: center;
+    margin: 16px 0;
 }
