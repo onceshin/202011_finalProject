@@ -177,7 +177,7 @@ h3{
 .setupBtn i{
     position: absolute;
     left: 180px; 
-    top: 16px; 
+    top: 24px; 
     color: #fff;
     cursor: pointer;
 }
@@ -317,4 +317,50 @@ h3{
 
 .submitBtn input:hover{
     background: #2e8b57;
+}
+
+/*course*/
+
+.course-banner{
+    background-image: url(https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/mutiplePage/bg_course.png);
+    background-repeat: no-repeat;
+    top: 0;
+    z-index: 1;
+    padding: 175px 42px;
+}
+
+.course-banner h2{
+    font-size: 48px;
+    color: #fff;
+    margin-bottom: 18px;
+}
+
+.course-banner span{
+    font-size: 24px;
+    color: #00cc99;
+    display: block;
+    margin-bottom: 58px;
+}
+
+.courseBtn{
+    position: relative;
+}
+
+.courseBtn input{
+    background: #00cc99;
+    border-radius: 5px;
+    border:none;
+    padding: 20px 60px 15px 20px;
+    color: #fff;
+    font-size: 20px;
+    text-indent: 20px;
+    cursor: pointer;
+}
+
+.courseBtn i{
+    position: absolute;
+    left: 150px; 
+    top: 24px; 
+    color: #fff;
+    cursor: pointer;
 }
