@@ -382,3 +382,33 @@ h3{
     list-style-type: disc;
 }
 
+.course-special{
+    margin: 0 202px 60px 200px;
+}
+
+.course-special-title{
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 30px;
+}
+
+.course-special-title p{
+    margin-left: 20px;
+    color:#a9a9a9;
+    font-size: 18px;
+}
+
+.course-special ul{
+    line-height: 1.5;
+    list-style-type: decimal;
+}
+
+.course-special ul li{
+    margin-left: 20px;
+    text-indent: 20px;
+}
+
+.course-special ul li span{
+    margin-left: 20px;
+}
+    
