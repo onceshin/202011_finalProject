@@ -357,6 +357,10 @@ h3{
     cursor: pointer;
 }
 
+.courseBtn input:hover{
+    background: #2e8b57;
+}
+
 .courseBtn i{
     position: absolute;
     left: 150px; 
@@ -472,6 +476,10 @@ h3{
     font-size: 18px;
     text-indent: 20px;
     cursor: pointer;
+}
+
+.course-setup-setupBtn input:hover{
+    background: #2e8b57;
 }
 
 .course-setup-setupBtn i{
