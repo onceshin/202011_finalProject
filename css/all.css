@@ -411,4 +411,36 @@ h3{
 .course-special ul li span{
     margin-left: 20px;
 }
-    
+
+.course-lesson{
+    margin: 0 202px 60px 200px;
+}
+
+.course-lesson-title{
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 30px;
+}
+
+.course-lesson-title p{
+    margin-left: 10px;
+    color:#a9a9a9;
+    font-size: 18px;
+}
+
+.course-lesson table{
+    width: 100%;
+}
+
+.course-lesson td{
+    padding: 20px;
+    font-weight: bold;
+}
+
+.course-lesson tr:nth-child(even) {
+    background-color: #fff;
+    color: #9b9b9b;
+}
+.course-lesson tr:nth-child(odd) {
+   background-color: #ebebeb;
+}
