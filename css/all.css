@@ -531,3 +531,59 @@ h3{
     color: #000;
     cursor: pointer;
 }
+
+.question-items{
+    margin: 62px 134px 62px 122px;
+}
+
+.question-title{
+    display: flex;
+    align-items: flex-end;
+}
+
+.question-title h4{
+    margin-right: 22px;
+    font-size: 32px;
+    font-weight: bold;
+    color: #00cc99;
+}
+
+.question-title span{
+    font-size: 20px;
+    font-weight: bold;
+    color:#9b9b9b;
+}
+
+.question-answer{
+    margin-top: 34px;
+    font-weight: bold;
+}
+
+.question-answer span{
+    font-size: 20px;
+}
+
+.question-answer p{
+    margin-top: 7px;
+    color:#9b9b9b;
+    line-height: 1.5;
+}
+
+.highlight{
+    color: #00cc99;
+}
+
+.pay{
+    list-style-type: decimal;
+    margin-left: 50px;
+    text-indent: 20px;
+    color:#9b9b9b;
+    line-height: 1.5;
+}
+
+.refund{
+    list-style-type: disc;
+    text-indent: 50px;
+    color:#9b9b9b;
+    line-height: 1.5;
+}
