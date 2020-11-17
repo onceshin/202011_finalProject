@@ -462,12 +462,12 @@ h3{
     line-height: 1.5;
 }
 
-.course-setup-setupBtn{
+.course-setupBtn{
     position: relative;
     margin-left: 64px;
 }
 
-.course-setup-setupBtn input{
+.course-setupBtn input{
     background: #00cc99;
     border-radius: 5px;
     border:none;
@@ -478,14 +478,17 @@ h3{
     cursor: pointer;
 }
 
-.course-setup-setupBtn input:hover{
+.course-setupBtn input:hover{
     background: #2e8b57;
 }
 
-.course-setup-setupBtn i{
+.course-setupBtn i{
     position: absolute;
     left: 150px; 
     top: 18px; 
     color: #fff;
     cursor: pointer;
 }
+
+/*faq*/
+
