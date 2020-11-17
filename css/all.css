@@ -102,10 +102,6 @@ h3{
     border-bottom: 10px solid #00cc99;
 }
 
-.content{
-
-}
-
 .footer{
     background:#323228;
     display: flex;
@@ -328,16 +324,25 @@ h3{
     background-repeat: no-repeat;
     top: 0;
     z-index: 1;
-    padding: 175px 42px;
+    padding: 108px 56px 174px 42px;
 }
 
-.course-banner h2{
+.course-banner-title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-text{
+    margin-top: 70px;
+}
+
+.title-text h2{
     font-size: 48px;
     color: #fff;
     margin-bottom: 18px;
 }
 
-.course-banner span{
+.title-text span{
     font-size: 24px;
     color: #00cc99;
     display: block;
