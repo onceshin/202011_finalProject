@@ -299,11 +299,8 @@ h3{
     color: #a9a9a9;
 }
 
-.submitBtn{
-    text-align: right;
-}
-
-.submitBtn input{
+.connection-items .submitBtn{
+    align-self: flex-end;
     width: 140px;
     background: #00cc99;
     color: #fff;
@@ -313,7 +310,7 @@ h3{
     letter-spacing: 2px;
 }
 
-.submitBtn input:hover{
+.submitBtn:hover{
     background: #2e8b57;
 }
 
@@ -625,11 +622,8 @@ h3{
     color: #a9a9a9;
 }
 
-.faq-submitBtn{
-    text-align: right;
-}
-
-.faq-submitBtn input{
+.faq-connection-items .faq-submitBtn{
+    align-self: flex-end;
     width: 140px;
     background: #00cc99;
     color: #fff;
@@ -639,6 +633,6 @@ h3{
     letter-spacing: 2px;
 }
 
-.faq-submitBtn input:hover{
+.faq-submitBtn:hover{
     background: #2e8b57;
 }
