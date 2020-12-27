@@ -514,8 +514,11 @@ h3{
     background-repeat: no-repeat;
     top: 0;
     z-index: 1;
-    padding: 180px 42px;
-    text-align: center;
+    height: 560px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .faq-banner h2{
