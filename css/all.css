@@ -109,7 +109,7 @@ h3{
     align-items: center;
 }
 
-.footer h1 a{
+.footer h2 a{
     background-image: url(https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/mutiplePage/logo.png);
     display: block;
     width: 182px;
@@ -137,7 +137,8 @@ h3{
     background-repeat: no-repeat;
     top: 0;
     z-index: 1;
-    padding: 176px 42px 130px 42px;
+    position: relative;
+    height: 560px;
 }
 
 .index-banner h2{
@@ -145,6 +146,9 @@ h3{
     line-height: 1.5;
     color: #00cc99;
     margin-bottom: 60px;
+    position: absolute;
+    top: 200px;
+    right: 500px;
 }
 
 .index-banner h2 span{
@@ -152,7 +156,9 @@ h3{
 }
 
 .setupBtn{
-    position: relative;
+    position: absolute;
+    top: 400px;
+    right: 700px;
 }
 
 .setupBtn input{
@@ -321,10 +327,14 @@ h3{
     background-repeat: no-repeat;
     top: 0;
     z-index: 1;
-    padding: 108px 56px 174px 42px;
+    position: relative;
+    height: 560px;
 }
 
 .course-banner-title{
+    position: absolute;
+    top: 80px;
+    right: 50px;
     display: flex;
     justify-content: space-between;
 }
