@@ -337,6 +337,7 @@ h3{
     right: 50px;
     display: flex;
     justify-content: space-between;
+    width: 900px;
 }
 
 .title-text{
@@ -357,7 +358,9 @@ h3{
 }
 
 .courseBtn{
-    position: relative;
+    position: absolute;
+    top: 300px;
+    right: 750px;
 }
 
 .courseBtn input{
